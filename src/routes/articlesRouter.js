@@ -5,8 +5,8 @@ import Article from "../models/Article.js"
 const articlesRouter = new express.Router()
 
 articlesRouter.get("/", (req, res) => {
-  const articles = Article.findAll()
-  res.render("articles/index", { articles })
+  // const articles = Article.findAll()
+  res.render("articles/index")
 })
 
 // articlesRouter.get("/new", (req, res) => {
