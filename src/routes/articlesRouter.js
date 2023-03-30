@@ -9,14 +9,14 @@ articlesRouter.get("/", (req, res) => {
   res.render("articles/index", { articles })
 })
 
-articlesRouter.get("/new", (req, res) => {
-  res.render("articles/new")
-})
+// articlesRouter.get("/new", (req, res) => {
+//   res.render("articles/new")
+// })
 
-articlesRouter.post("/", (req, res) => {
-  const newArticle = new Article(req.body)
-  newArticle.save()
-  res.redirect("/articles")
-})
+// articlesRouter.post("/", (req, res) => {
+//   const newArticle = new Article(req.body)
+//   newArticle.save()
+//   res.redirect("/articles")
+// })
 
 export default articlesRouter
