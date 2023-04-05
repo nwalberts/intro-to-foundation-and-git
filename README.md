@@ -69,4 +69,9 @@ Here are some of the classes you'll use:
 - `medium-#`, `large-#`: the "small" part of the above class means "with small screens, do this". Here you can specify different widths for medium and large screens! This will mean your layout changes depending on screen size. (Yay mobile-friendly design!)
 
 Check out the [docs](https://get.foundation/sites/docs/xy-grid.html) for more useful classes like offsetting your rows, centering columns, etc.
-w
+
+## Git 
+- use Git to track what you do in an app since pulling it down
+- `git init`
+- then open up the source control menu in VSCode, add all changes, and commit
+- from now on, every subsequent change you make will be recorded!
