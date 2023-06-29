@@ -1,16 +1,20 @@
-.button {
-    background-color: green;
+span {
+    font-family: "Times New Roman", Times, serif;
 }
+/* .button {
+    background-color: green;
+} */
 
 .main-content {
+    border: solid pink 10px;
     margin: 10px;
+    padding: 2rem;
 }
 
 .awesome-thing {
     color: purple;
-    justify-content: center;
 }
-
+/* 
 .awesome-thing--green {
     color: green;
-}
+} */
